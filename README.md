@@ -412,10 +412,10 @@ npm start
 **JaQuan Earls**  
 Full-Stack Mobile Developer
 
-- 📧 Email: [your-email@example.com]
-- 💼 LinkedIn: [Your LinkedIn]
-- 🐙 GitHub: [Your GitHub]
-- 🌐 Portfolio: [Your Portfolio]
+- 📧 Email: jaquan.earls@thelanternsocial.house
+- 💼 LinkedIn: 
+- 🐙 GitHub: jnoaewhy
+- 🌐 Portfolio: 
 
 ---
 
