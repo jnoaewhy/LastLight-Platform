@@ -1,0 +1,30 @@
+{
+  "name": "lastlight-platform",
+  "version": "1.0.0",
+  "description": "Complete gaming venue management platform with 4 React Native apps and Node.js backend",
+  "author": "JaQuan Earls",
+  "license": "UNLICENSED",
+  "private": true,
+  "scripts": {
+    "start": "echo 'Choose an app to run: patron, staff, management, owner, or backend'",
+    "backend": "cd backend && npm start",
+    "patron": "cd apps/patron && npm start",
+    "staff": "cd apps/staff && npm start",
+    "management": "cd apps/management && npm start",
+    "owner": "cd apps/owner && npm start"
+  },
+  "keywords": [
+    "react-native",
+    "nodejs",
+    "postgresql",
+    "websocket",
+    "real-time",
+    "venue-management",
+    "mobile-app",
+    "full-stack"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/LastLight-Platform.git"
+  }
+}
