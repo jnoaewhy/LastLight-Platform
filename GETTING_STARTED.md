@@ -307,7 +307,7 @@ LastLight-Platform/
 ## Need Help?
 
 - **Issues:** Create an issue on GitHub
-- **Email:** [your-email@example.com]
+- **Email:** jaquan.earls@thelanternsocial.house
 - **Documentation:** See `/docs` directory
 
 ---
