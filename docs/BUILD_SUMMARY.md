@@ -432,7 +432,7 @@ This isn't a tutorial project or a prototype. This is:
 
 **Total build time:** One focused session  
 **Total cost to deploy:** ~$30-50/month  
-**Potential revenue:** $90K/month (from your business plan)  
+**Potential revenue:** $90K/month (from my business plan)  
 ---
 *Built in one session by j*  
 *Fueled by energy drinks and being told you can't do it*  
