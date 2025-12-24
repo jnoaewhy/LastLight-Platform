@@ -11,24 +11,24 @@
 
 ## 📖 Overview
 
-**Last Light** is a production-ready mobile platform designed for **The Lantern Social House**, a Japanese-themed gaming arcade and karaoke venue in East Lansing, Michigan. The platform provides comprehensive venue management through four specialized mobile applications that work together in real-time.
+**Last Light** is a production-ready mobile platform designed for comprehensive venue management. Built for **The Lantern Social House**, a Japanese-themed gaming arcade and karaoke venue, the platform provides real-time operational control through four specialized mobile applications.
 
 **Built by:** JaQuan Earls  
-**Timeline:** 8 weeks of intensive development  
-**Status:** Beta-ready, full feature implementation complete
+**Development Timeline:** 8 weeks of intensive full-stack development  
+**Status:** Beta-ready with full feature implementation
 
 ---
 
 ## 🎯 The Problem It Solves
 
-Gaming venues need systems that:
-- Track patron sessions and consumption in real-time
-- Prevent impaired driving through safety interventions
+Entertainment venues require sophisticated systems that can:
+- Track patron sessions and activity in real-time
+- Implement safety protocols and interventions
 - Manage staff operations and emergency response
 - Provide management oversight across all activities
-- Give owners god-mode control over every system
+- Enable owner-level control over system operations
 
-**Last Light solves all of this with a unified platform.**
+**Last Light addresses these challenges with a unified, real-time platform.**
 
 ---
 
@@ -72,27 +72,27 @@ Gaming venues need systems that:
 **Frontend (Mobile Apps)**
 - React Native 0.72+
 - React Navigation 6.x
-- AsyncStorage for offline-first
-- Socket.io Client for real-time
+- AsyncStorage for offline-first architecture
+- Socket.io Client for real-time communication
 - Custom hooks for state management
 
 **Backend (API Server)**
 - Node.js 18+
-- Express.js
+- Express.js framework
 - Socket.io for WebSocket connections
 - JWT authentication
 - bcrypt for password security
 
 **Database**
 - PostgreSQL 15+
-- Supabase for hosting
+- Supabase for managed hosting
 - Row-level security policies
 - Real-time subscriptions
-- Optimized indexes
+- Optimized indexes for performance
 
 **Infrastructure**
 - Railway (backend deployment)
-- Vercel (frontend hosting)
+- Vercel (frontend hosting capability)
 - Stripe (payment processing)
 - Geolocation APIs
 
@@ -107,12 +107,12 @@ Gaming venues need systems that:
 - Session check-in/check-out with QR codes
 - Credit purchases and balance management
 - Activity tracking (games, karaoke, food orders)
-- Safety verification system (prevents impaired driving)
+- Safety verification system
 - Real-time notifications
 - Offline mode support
 
 **Tech Highlights:**
-- Cyberpunk Tokyo aesthetic (sunset neon colors)
+- Cyberpunk Tokyo aesthetic with sunset neon colors
 - Geofencing for time verification
 - Biometric authentication support
 - Session state persistence
@@ -123,18 +123,18 @@ Gaming venues need systems that:
 **Purpose:** Frontline operations management
 
 **Key Features:**
-- Session monitoring across all patrons
+- Real-time session monitoring
 - Task assignment and completion tracking
-- Emergency SOS button
-- Real-time floor status
+- Emergency SOS system
+- Live floor status dashboard
 - Order management
-- Clock in/out system
+- Clock in/out functionality
 
 **Tech Highlights:**
 - Emerald green color scheme
 - Push notifications for urgent tasks
 - Offline functionality for critical operations
-- Role-based permissions
+- Role-based access controls
 
 ---
 
@@ -142,7 +142,7 @@ Gaming venues need systems that:
 **Purpose:** Oversight and analytics
 
 **Key Features:**
-- Live floor dashboard
+- Live operations dashboard
 - Staff performance metrics
 - Revenue tracking and analytics
 - Safety intervention controls
@@ -152,25 +152,25 @@ Gaming venues need systems that:
 **Tech Highlights:**
 - Cyber blue/cyan aesthetic
 - Real-time data visualization
-- Export capabilities for reports
+- Export capabilities for reporting
 - Advanced filtering and search
 
 ---
 
 ### 4. Owner App 👑
-**Purpose:** God-mode system control
+**Purpose:** System-wide control and oversight
 
 **Key Features:**
 - Complete system oversight
 - Financial analytics and projections
-- Multi-location management (future-ready)
+- Multi-location management capability
 - Emergency broadcast system
-- System-wide settings control
-- Audit log access
+- System-wide configuration controls
+- Comprehensive audit log access
 
 **Tech Highlights:**
-- Platinum & black royal design
-- Highest security clearance
+- Platinum and black design
+- Highest security clearance level
 - Direct database query capabilities
 - System health monitoring
 
@@ -179,118 +179,116 @@ Gaming venues need systems that:
 ## 🔥 Key Features
 
 ### Real-Time Synchronization
-All four apps sync in real-time via WebSockets:
-- Session status updates propagate instantly
-- Staff tasks appear immediately
+All four applications sync instantly via WebSockets:
+- Session status updates propagate in real-time
+- Staff tasks appear immediately across devices
 - Financial data updates live
 - Emergency alerts broadcast system-wide
 
 ### Safety System
-**Prevents impaired driving through:**
+Implements patron safety protocols through:
 - Time-based session tracking
 - Geofenced check-in verification
 - Mandatory safety acknowledgments
-- Staff intervention protocols
-- Automated ride-sharing integration
+- Staff intervention workflows
+- Automated safety threshold monitoring
 
 ### Offline-First Architecture
-Critical functions work without internet:
+Critical functions operate without internet connectivity:
 - Session check-ins stored locally
-- Staff operations continue
-- Automatic sync when reconnected
+- Staff operations continue uninterrupted
+- Automatic synchronization when reconnected
 - Conflict resolution strategies
 
 ### Security & Authentication
-- JWT token-based auth
-- Role-based access control (4 levels)
+- JWT token-based authentication
+- Role-based access control (4 permission levels)
 - Encrypted data transmission
 - Biometric login support
-- Session management with automatic timeout
+- Automatic session timeout management
 
 ### Payment Integration
 - Stripe payment processing
-- Credit-based system
+- Credit-based transaction system
 - Webhook handling for reconciliation
 - Refund management
-- Financial reporting
+- Comprehensive financial reporting
 
 ---
 
 ## 💾 Database Architecture
 
 **30+ Interconnected Tables:**
-- Users (patrons, staff, managers, owners)
-- Sessions (active, historical, safety logs)
-- Transactions (purchases, refunds, credits)
-- Inventory (games, rooms, food items)
-- Staff operations (shifts, tasks, performance)
-- Analytics (aggregated metrics, trends)
+- User management (patrons, staff, managers, owners)
+- Session tracking (active, historical, safety logs)
+- Financial transactions (purchases, refunds, credits)
+- Inventory systems (games, rooms, menu items)
+- Staff operations (shifts, tasks, performance metrics)
+- Analytics (aggregated metrics, trends, forecasts)
 
 **Key Design Decisions:**
-- Multi-tenant architecture (venue isolation)
-- Soft deletes for audit trails
-- Optimistic locking for concurrency
-- Materialized views for performance
-- Scheduled aggregation jobs
+- Multi-tenant architecture for venue isolation
+- Soft deletes for comprehensive audit trails
+- Optimistic locking for concurrency control
+- Materialized views for performance optimization
+- Scheduled aggregation jobs for analytics
 
 ---
 
 ## 🚀 Technical Highlights
 
-### What Makes This Impressive
-
-**1. Full-Stack Mobile Development**
+### Full-Stack Mobile Development
 - Built 4 complete React Native applications from scratch
-- Implemented complex navigation flows
+- Implemented complex navigation flows and state management
 - Created reusable component libraries
 - Designed intuitive UX for different user roles
 
-**2. Backend Architecture**
+### Backend Architecture
 - 109 REST API endpoints across 12 resource types
-- WebSocket server handling 20+ event types
-- Real-time state synchronization across clients
-- Horizontal scaling strategy implemented
+- WebSocket server handling 20+ real-time event types
+- Real-time state synchronization across multiple clients
+- Horizontal scaling strategy for production deployment
 
-**3. Database Design**
-- Normalized schema with proper relationships
-- Query optimization with strategic indexing
-- Row-level security policies
-- Migration strategy for schema evolution
+### Database Design
+- Normalized schema with proper relational design
+- Strategic query optimization through indexing
+- Row-level security policies for data isolation
+- Comprehensive migration strategy for schema evolution
 
-**4. System Integration**
-- Stripe payment webhooks
-- Geolocation services
-- Push notification services
-- Email/SMS alerts
-- Third-party APIs
+### System Integration
+- Stripe payment webhook processing
+- Geolocation service integration
+- Push notification infrastructure
+- Email/SMS alert systems
+- Third-party API integrations
 
-**5. Security Implementation**
-- JWT authentication with refresh tokens
-- bcrypt password hashing
-- SQL injection prevention
-- XSS protection
-- CORS configuration
-- Rate limiting
+### Security Implementation
+- JWT authentication with refresh token rotation
+- bcrypt password hashing (10 rounds)
+- SQL injection prevention through parameterized queries
+- XSS protection mechanisms
+- CORS configuration for API security
+- Rate limiting for API endpoints
 
-**6. Development Practices**
+### Development Practices
 - Modular code organization
 - Consistent naming conventions
-- Comprehensive documentation
-- Error handling strategies
-- Logging and monitoring
+- Comprehensive inline documentation
+- Strategic error handling
+- Centralized logging system
 
 ---
 
 ## 📊 By The Numbers
 
-- **8,000+** lines of code written
-- **4** mobile applications
-- **109** API endpoints
+- **8,000+** lines of production code
+- **4** complete mobile applications
+- **109** REST API endpoints
 - **30+** database tables
 - **20+** WebSocket event types
-- **7** security layers
-- **4** user role types
-- **8 weeks** development time
+- **7** security implementation layers
+- **4** distinct user role types
+- **8 weeks** intensive development timeline
 
 ---
 
@@ -299,70 +297,69 @@ Critical functions work without internet:
 ```
 LastLight-Platform/
 ├── apps/
-│   ├── patron/          # Patron mobile app
+│   ├── patron/          # Customer-facing mobile app
 │   ├── staff/           # Staff operations app
 │   ├── management/      # Management dashboard app
 │   └── owner/           # Owner control center app
 ├── backend/
-│   ├── api/             # REST API server
-│   ├── services/        # Business logic services
-│   ├── middleware/      # Auth, logging, validation
-│   └── config/          # Configuration files
+│   ├── api/             # REST API server implementation
+│   ├── services/        # Business logic layer
+│   ├── middleware/      # Authentication, logging, validation
+│   └── config/          # Configuration management
 ├── database/
 │   ├── schemas/         # Database schema definitions
-│   └── migrations/      # Migration scripts
+│   └── migrations/      # Schema migration scripts
 ├── docs/
-│   ├── BUILD_SUMMARY.md # Complete build documentation
-│   └── TECH_STACK.md    # Technical decisions and rationale
-├── assets/              # Shared assets (icons, images)
-└── README.md           # This file
+│   ├── ARCHITECTURE.md  # System architecture deep dive
+│   ├── BUILD_SUMMARY.md # Feature overview and statistics
+│   └── TECH_STACK.md    # Technology decisions and rationale
+├── assets/              # Shared assets and resources
+└── README.md           # Project documentation
 ```
 
 ---
 
-## 🎓 What I Learned
+## 🎓 Technical Learnings
 
-### Technical Growth
-- **React Native mastery** - From basics to advanced patterns
-- **Node.js at scale** - Building production-ready APIs
-- **Database design** - Multi-tenant, normalized schemas
-- **Real-time systems** - WebSocket architecture and state management
-- **Security** - Authentication, authorization, data protection
-- **System architecture** - Designing scalable, maintainable systems
+### Skills Developed
+- **React Native Mastery** - Advanced patterns and performance optimization
+- **Node.js at Scale** - Production-ready API architecture
+- **Database Design** - Multi-tenant normalized schemas
+- **Real-Time Systems** - WebSocket architecture and state synchronization
+- **Security Engineering** - Authentication, authorization, data protection
+- **System Architecture** - Designing scalable, maintainable platforms
 
-### Problem-Solving
-- **Complex state management** across multiple disconnected apps
-- **Offline-first challenges** with eventual consistency
-- **Real-time synchronization** without race conditions
-- **Multi-role authorization** with different permission levels
-- **Safety-critical systems** where failure isn't an option
+### Complex Problems Solved
+- **Multi-App State Management** - Synchronizing state across disconnected applications
+- **Offline-First Architecture** - Implementing eventual consistency patterns
+- **Real-Time Synchronization** - Preventing race conditions in concurrent updates
+- **Multi-Role Authorization** - Granular permission systems with role inheritance
+- **Safety-Critical Systems** - Building reliable intervention mechanisms
 
 ### Project Management
-- **Scope definition** - MVP vs future features
-- **Timeline estimation** - Breaking down large projects
-- **Documentation** - Making complex systems understandable
-- **Iteration** - Refining features based on use cases
+- **Scope Definition** - Distinguishing MVP features from future enhancements
+- **Timeline Estimation** - Breaking complex projects into achievable milestones
+- **Technical Documentation** - Making sophisticated systems accessible
+- **Iterative Development** - Continuous refinement based on use case analysis
 
 ---
 
 ## 🔮 Future Enhancements
 
-**Phase 2 Features:**
-- [ ] Push notification system
-- [ ] Advanced analytics dashboard
-- [ ] Machine learning for session predictions
-- [ ] Mobile app store deployment (iOS/Android)
-- [ ] Multi-location support
-- [ ] API rate limiting and caching
-- [ ] Automated testing suite
-- [ ] CI/CD pipeline
+**Planned Features:**
+- [ ] Native mobile app deployment (iOS App Store, Google Play)
+- [ ] Push notification infrastructure
+- [ ] Advanced analytics dashboard with ML predictions
+- [ ] Multi-location support and franchise management
+- [ ] Automated testing suite (unit, integration, e2e)
+- [ ] CI/CD pipeline implementation
 
 **Scalability Improvements:**
-- [ ] Redis caching layer
-- [ ] Database read replicas
-- [ ] CDN for static assets
-- [ ] Microservices architecture
-- [ ] Kubernetes deployment
+- [ ] Redis caching layer for session management
+- [ ] Database read replicas for query optimization
+- [ ] CDN integration for static asset delivery
+- [ ] Microservices architecture transition
+- [ ] Kubernetes orchestration for deployment
 
 ---
 
@@ -378,7 +375,7 @@ React Native development environment
 ### Installation
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/LastLight-Platform.git
+git clone https://github.com/jnoaewhy/LastLight-Platform.git
 cd LastLight-Platform
 
 # Install backend dependencies
@@ -389,7 +386,7 @@ npm install
 cd ../apps/patron
 npm install
 
-# Set up environment variables
+# Configure environment variables
 cp .env.example .env
 # Edit .env with your configuration
 
@@ -400,10 +397,12 @@ npm run migrate
 cd ../../backend
 npm run dev
 
-# Start the mobile apps (in separate terminals)
+# Start mobile apps (in separate terminals)
 cd ../apps/patron
 npm start
 ```
+
+For detailed setup instructions, see [GETTING_STARTED.md](./GETTING_STARTED.md)
 
 ---
 
@@ -413,24 +412,25 @@ npm start
 Full-Stack Mobile Developer
 
 - 📧 Email: jaquan.earls@thelanternsocial.house
-- 💼 LinkedIn: 
-- 🐙 GitHub: jnoaewhy
-- 🌐 Portfolio: 
+- 💼 LinkedIn: [linkedin.com/in/jaquan-earls-6130423a1](https://www.linkedin.com/in/jaquan-earls-6130423a1/)
+- 🐙 GitHub: [@jnoaewhy](https://github.com/jnoaewhy)
 
 ---
 
 ## 📄 License
 
-This project is part of a portfolio demonstration. For licensing inquiries, please contact the developer.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
-## 🙏 Acknowledgments
+## 🏢 Project Context
 
-Built with determination, coffee, and a vision to create something meaningful. This platform represents not just technical capability, but the ability to take a complex real-world problem and architect a complete solution from the ground up.
+This platform was developed to address real-world operational challenges in the entertainment venue industry. It demonstrates end-to-end system architecture, from database design through mobile deployment, with production-ready code quality and comprehensive documentation.
 
-**"Pressure makes diamonds."** 💎
+**Note:** This is a portfolio project showcasing full-stack mobile development capabilities. Production deployments incorporate additional security measures and proprietary business logic not included in this public repository.
 
 ---
+
+*Built with modern web technologies and best practices in software architecture*
 
 *Last updated: December 2024*
