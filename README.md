@@ -9,7 +9,7 @@
 
 ---
 
-## 📖 Overview
+##  Overview
 
 **Last Light** is a production-ready mobile platform designed for comprehensive venue management. Built for **The Lantern Social House**, a Japanese-themed gaming arcade and karaoke venue, the platform provides real-time operational control through four specialized mobile applications.
 
@@ -19,7 +19,7 @@
 
 ---
 
-## 🎯 The Problem It Solves
+##  The Problem It Solves
 
 Entertainment venues require sophisticated systems that can:
 - Track patron sessions and activity in real-time
@@ -32,7 +32,7 @@ Entertainment venues require sophisticated systems that can:
 
 ---
 
-## 🏗️ Architecture
+##  Architecture
 
 ### System Overview
 ```
@@ -98,9 +98,9 @@ Entertainment venues require sophisticated systems that can:
 
 ---
 
-## 📱 The Four Applications
+##  The Four Applications
 
-### 1. Patron App 🎮
+### 1. Patron App 
 **Purpose:** Customer-facing experience
 
 **Key Features:**
@@ -119,7 +119,7 @@ Entertainment venues require sophisticated systems that can:
 
 ---
 
-### 2. Staff App 👔
+### 2. Staff App 
 **Purpose:** Frontline operations management
 
 **Key Features:**
@@ -138,7 +138,7 @@ Entertainment venues require sophisticated systems that can:
 
 ---
 
-### 3. Management App 📊
+### 3. Management App 
 **Purpose:** Oversight and analytics
 
 **Key Features:**
@@ -157,7 +157,7 @@ Entertainment venues require sophisticated systems that can:
 
 ---
 
-### 4. Owner App 👑
+### 4. Owner App 
 **Purpose:** System-wide control and oversight
 
 **Key Features:**
@@ -176,7 +176,7 @@ Entertainment venues require sophisticated systems that can:
 
 ---
 
-## 🔥 Key Features
+##  Key Features
 
 ### Real-Time Synchronization
 All four applications sync instantly via WebSockets:
@@ -216,7 +216,7 @@ Critical functions operate without internet connectivity:
 
 ---
 
-## 💾 Database Architecture
+##  Database Architecture
 
 **30+ Interconnected Tables:**
 - User management (patrons, staff, managers, owners)
@@ -235,7 +235,7 @@ Critical functions operate without internet connectivity:
 
 ---
 
-## 🚀 Technical Highlights
+##  Technical Highlights
 
 ### Full-Stack Mobile Development
 - Built 4 complete React Native applications from scratch
@@ -279,7 +279,7 @@ Critical functions operate without internet connectivity:
 
 ---
 
-## 📊 By The Numbers
+##  By The Numbers
 
 - **8,000+** lines of production code
 - **4** complete mobile applications
@@ -292,7 +292,7 @@ Critical functions operate without internet connectivity:
 
 ---
 
-## 📁 Repository Structure
+##  Repository Structure
 
 ```
 LastLight-Platform/
@@ -319,7 +319,7 @@ LastLight-Platform/
 
 ---
 
-## 🎓 Technical Learnings
+##  Technical Learnings
 
 ### Skills Developed
 - **React Native Mastery** - Advanced patterns and performance optimization
@@ -344,7 +344,7 @@ LastLight-Platform/
 
 ---
 
-## 🔮 Future Enhancements
+##  Future Enhancements
 
 **Planned Features:**
 - [ ] Native mobile app deployment (iOS App Store, Google Play)
@@ -363,7 +363,7 @@ LastLight-Platform/
 
 ---
 
-## 🛠️ Local Development Setup
+##  Local Development Setup
 
 ### Prerequisites
 ```bash
@@ -406,24 +406,24 @@ For detailed setup instructions, see [GETTING_STARTED.md](./GETTING_STARTED.md)
 
 ---
 
-## 📞 Contact
+##  Contact
 
 **JaQuan Earls**  
 Full-Stack Mobile Developer
 
-- 📧 Email: jaquan.earls@thelanternsocial.house
-- 💼 LinkedIn: [linkedin.com/in/jaquan-earls-6130423a1](https://www.linkedin.com/in/jaquan-earls-6130423a1/)
-- 🐙 GitHub: [@jnoaewhy](https://github.com/jnoaewhy)
+-  Email: jaquan.earls@thelanternsocial.house
+-  LinkedIn: [linkedin.com/in/jaquan-earls-6130423a1](https://www.linkedin.com/in/jaquan-earls-6130423a1/)
+-  GitHub: [@jnoaewhy](https://github.com/jnoaewhy)
 
 ---
 
-## 📄 License
+##  License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
-## 🏢 Project Context
+##  Project Context
 
 This platform was developed to address real-world operational challenges in the entertainment venue industry. It demonstrates end-to-end system architecture, from database design through mobile deployment, with production-ready code quality and comprehensive documentation.
 
